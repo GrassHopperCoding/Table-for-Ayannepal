@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid silver;
+    border-left: 1px solid silver;
+}
+
+table , td, th {
+    text-align: center;
+}
+
+td, th {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid silver;
+    border-right: 1px solid silver;
+	padding: 3px;
+	width: 145px;
+	height: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.yellow {
+    background-color: rgba(255, 255, 105, 0.76);
+}
+
+.purple {
+    background-color: rgba(184, 98, 255, 0.671);
+}
+
+.green {
+    background-color: rgba(57, 255, 57, 0.568);
+}
